@@ -1,11 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif ;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
+}
+p{
+    color: dimgray;
 }
 .half-width{
     width: 40%;
@@ -15,4 +19,56 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 70px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orangered;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.aboutschool-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 10px;
+    height: 90%;
+    background-color: white;
+}
+.experience-class{
+    text-align: center;
+    color: rgb(50, 151, 118);
+    text-shadow: 2px solid dimgray;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#pipe-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#pipe-color-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
